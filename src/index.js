@@ -1,13 +1,11 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import './index.css'
-import AccountsPage from "./Components/AccountsPage"
+import Routing from "./Components/Utilities/Routing"
 import reportWebVitals from './reportWebVitals'
 
 ReactDOM.render(
-  <React.StrictMode>
-    <AccountsPage />
-  </React.StrictMode>,
+    <Routing />,
   document.getElementById('root')
 );
 
