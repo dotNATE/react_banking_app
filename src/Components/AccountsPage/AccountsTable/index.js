@@ -7,7 +7,7 @@ const AccountsTable = (props) => (
     <table className="accountsTable">
         <TableHeader />
         <tbody>
-            <UserAccountTableRecord name="nathaniel" balance="420" />
+            <UserAccountTableRecord name="nathaniel" balance="420" id="69"/>
         </tbody>
     </table>
 )

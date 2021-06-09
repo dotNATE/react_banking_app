@@ -1,7 +1,7 @@
 import React from "react"
 
 const Form = (props) => (
-    <form action={ props.action }>
+    <form method={ props.method }>
         { props.children }
     </form>
 )
