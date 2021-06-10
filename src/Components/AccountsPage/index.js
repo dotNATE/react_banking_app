@@ -7,7 +7,7 @@ import AccountsTable from "./AccountsTable";
 const AccountsPage = () => (
     <React.StrictMode>
         <PageHeader content="accounts" />
-        <AddAccountForm action="www.google.com"/>
+        <AddAccountForm />
         <AccountsTable />
     </React.StrictMode>
 )
