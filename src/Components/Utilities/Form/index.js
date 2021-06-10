@@ -1,7 +1,7 @@
 import React from "react"
 
 const Form = (props) => (
-    <form method={ props.method }>
+    <form onSubmit={ props.submitter }>
         { props.children }
     </form>
 )
